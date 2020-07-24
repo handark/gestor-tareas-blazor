@@ -1,0 +1,16 @@
+- name: Setup .NET Core
+uses: actions/setup-dotnet@v1
+with:
+  dotnet-version: 3.1.201
+
+- name: Build with dotnet
+run: dotnet build --configuration Release
+
+- name: Publish with dotnet
+run: dotnet publish --configuration Release 
+
+- name: Publish artifacts
+uses: actions/upload-artifact@master
+with:
+  name: gestor-tareas-blazor
+  path: bin/Release/netcoreapp3.1/publish/wwwroot

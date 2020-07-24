@@ -1,0 +1,37 @@
+﻿@page "/tareas"
+
+@using GestorTareasBlazor.Data
+
+<div class="form-group">
+    <input class="form-control"  placeholder="Alguna tarea..." id="nuevaTarea" @bind="nuevaTarea" />
+</div>
+
+<div class="form-group" >
+    <button class="btn btn-primary" @onclick="AgregarTarea" >Agregar tarea</button>
+</div>
+
+<h3>Tareas (@tareas.Count(tarea => !tarea.Finalizada))</h3>
+
+<ul class="list-group list-group-flush" >
+    @foreach (var tarea in tareas)
+    {
+        <li class="list-group-item" >
+            @tarea.Titulo
+        </li>
+    }
+</ul>
+
+
+
+@code {
+    private IList<TareaItem> tareas = new List<TareaItem>();
+    private string nuevaTarea;
+
+    private void AgregarTarea() {
+        if (!string.IsNullOrWhiteSpace(nuevaTarea))
+        {
+            tareas.Add(new TareaItem { Titulo = nuevaTarea });
+            nuevaTarea = string.Empty;
+        }
+    }
+}
