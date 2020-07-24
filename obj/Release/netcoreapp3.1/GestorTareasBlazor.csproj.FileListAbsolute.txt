@@ -50,3 +50,14 @@
 /home/jose/net/GestorTareasBlazor/obj/Release/netcoreapp3.1/GestorTareasBlazor.pdb
 /home/jose/net/GestorTareasBlazor/obj/Release/netcoreapp3.1/GestorTareasBlazor.genruntimeconfig.cache
 /home/jose/net/GestorTareasBlazor/obj/Release/netcoreapp3.1/GestorTareasBlazor.csproj.CopyComplete
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/deployment.json
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/deployment_operations.json
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Client.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.Azure.SignalR.Common.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.Azure.SignalR.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.Azure.SignalR.Protocols.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/Newtonsoft.Json.dll
+/home/jose/net/GestorTareasBlazor/bin/Release/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

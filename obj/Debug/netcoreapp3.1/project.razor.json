@@ -13,55 +13,6 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-        "Name": "GestorTareasBlazor.App",
-        "AssemblyName": "GestorTareasBlazor",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GestorTareasBlazor.App"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "GestorTareasBlazor.App",
-        "AssemblyName": "GestorTareasBlazor",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GestorTareasBlazor.App",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "GestorTareasBlazor.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "GestorTareasBlazor.Pages.FetchData",
         "AssemblyName": "GestorTareasBlazor",
         "Documentation": null,
@@ -513,6 +464,55 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "GestorTareasBlazor.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "GestorTareasBlazor.App",
+        "AssemblyName": "GestorTareasBlazor",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GestorTareasBlazor.App"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "GestorTareasBlazor.App",
+        "AssemblyName": "GestorTareasBlazor",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GestorTareasBlazor.App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "GestorTareasBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

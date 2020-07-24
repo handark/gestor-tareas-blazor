@@ -1,0 +1,61 @@
+{
+  "id": "/subscriptions/b57a26fe-cd88-4089-87f1-a203ac2cb4e6/resourceGroups/BlazorApps/providers/Microsoft.Resources/deployments/Microsoft.SignalRGalleryPackage",
+  "name": "Microsoft.SignalRGalleryPackage",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/b57a26fe-cd88-4089-87f1-a203ac2cb4e6/resourcegroups/BlazorApps/providers/Microsoft.SignalRService/SignalR/gestor-tareas",
+    "marketplaceItemId": "Microsoft.SignalRGalleryPackage"
+  },
+  "properties": {
+    "templateHash": "1742658775943834834",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "southcentralus"
+      },
+      "name": {
+        "type": "String",
+        "value": "gestor-tareas"
+      },
+      "serviceMode": {
+        "type": "String",
+        "value": "Default"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "Free_F1"
+      },
+      "tier": {
+        "type": "String",
+        "value": "Free"
+      },
+      "capacity": {
+        "type": "Int",
+        "value": 1
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2020-07-24T01:46:49.0086285Z",
+    "duration": "PT2.4064711S",
+    "correlationId": "ad3132b7-d3da-42c8-aa09-6c33502940b8",
+    "providers": [
+      {
+        "namespace": "Microsoft.SignalRService",
+        "resourceTypes": [
+          {
+            "resourceType": "SignalR",
+            "locations": [
+              "southcentralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}
